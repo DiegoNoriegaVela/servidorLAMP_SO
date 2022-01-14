@@ -1,1 +1,1 @@
-# pruebaRuddy
+#servidorLAMP_SO
