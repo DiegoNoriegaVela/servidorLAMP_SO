@@ -18,7 +18,7 @@
             <input type="hidden" name="id" value="<?=$idpublicaciones?>">
         </div>
         <div>
-            <label for="titulo">Titulo</label>
+            <label for="Doctor(a)">Titulo</label>
             <input type="text" name="titulo" value="<?=$datos->titulo?>" required>
         </div>
         <div>
