@@ -8,18 +8,18 @@
     if(isset($usuario)):
 ?>
     <a href="cerrar.php" class="logueado"><?=$usuario?></a>
-    <h2 class="subtitulos">Publicaciones</h2>
+    <h2 class="subtitulos">Especialistas</h2>
     <form class="publicaciones" action="regpublicaciones.php" method="POST" enctype="multipart/form-data">
         <div>
-            <label for="titulo">Titulo</label>
+            <label for="titulo">Nombres y Apellidos</label>
             <input type="text" name="titulo" required>
         </div>
         <div>
-            <label for="imagen">Imagen</label>
+            <label for="imagen">Imagen de Perfil</label>
             <input type="file" name="imagen">
         </div>
         <div>
-            <label for="descripcion">Descripcion</label>
+            <label for="descripcion">Informacion</label>
             <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
         </div>
         <div>
@@ -27,13 +27,13 @@
             <input type="reset" value="Limpiar">
         </div>
     </form>
-    <h2 class="subtitulos">Listado de las Publicaciones</h2>
+    <h2 class="subtitulos">Listado de Especialistas</h2>
     <table class="listado">
         <thead>
             <!-- <th>Nro</th> -->
-            <th>Titulo</th>
-            <th>Imagen</th>
-            <th>Descripcion</th>
+            <th>Nombres y Apellidos</th>
+            <th>Imagen de Perfil</th>
+            <th>Infromacion</th>
             <th>Fecha</th>
             <th colspan="2">Operaciones</th>
         </thead>

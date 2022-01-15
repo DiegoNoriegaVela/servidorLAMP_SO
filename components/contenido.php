@@ -7,7 +7,7 @@
     <div class="blue" id="blue"></div>
     <div class="green" id="green"></div>
 </div>
-<h2 class="subtitulo">MODELOS DE AUTOMOVIL</h2>
+<h2 class="subtitulo">NUESTROS ESPECIALISTAS</h2>
 <section class="contenido" id="contenido">
     <?php
         $sql = "SELECT * FROM notas";

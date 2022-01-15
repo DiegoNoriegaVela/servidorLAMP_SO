@@ -12,21 +12,21 @@
         while($datos = $resultado->fetch_object()):
 ?>
     <a href="cerrar.php" class="logueado"><?=$usuario?></a>
-    <h2 class="subtitulos">Editar Publicaciones</h2>
+    <h2 class="subtitulos">Editar Especialistas</h2>
     <form class="publicaciones" action="modpublicaciones.php" method="POST" enctype="multipart/form-data">
         <div>
             <input type="hidden" name="id" value="<?=$idpublicaciones?>">
         </div>
         <div>
-            <label for="Doctor(a)">Titulo</label>
+            <label for="titulo">Nombres y Apellidos</label>
             <input type="text" name="titulo" value="<?=$datos->titulo?>" required>
         </div>
         <div>
-            <label for="imagen">Imagen</label>
+            <label for="imagen">Imagen de Perfil</label>
             <input type="file" name="imagen">
         </div>
         <div>
-            <label for="descripcion">Descripcion</label>
+            <label for="descripcion">Informacion</label>
             <textarea name="descripcion" id="" cols="30" rows="10"><?=$datos->descripcion?></textarea>
         </div>
         <div>

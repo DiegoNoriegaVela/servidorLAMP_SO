@@ -14,7 +14,7 @@
             <li>Nosotros</li>
         </a>
         <a href="#">
-            <li>Galeria</li>
+            <li>Equipo</li>
         </a>
         <a href="#">
             <li>Contacto</li>

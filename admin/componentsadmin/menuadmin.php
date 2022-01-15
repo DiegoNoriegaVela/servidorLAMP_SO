@@ -11,7 +11,7 @@
             <li>Home</li>
         </a>
         <a href="publicaciones.php">
-            <li>Publicaciones</li>
+            <li>Lista de Especialistas</li>
         </a>
         <a href="#">
             <li>Perfil</li>
