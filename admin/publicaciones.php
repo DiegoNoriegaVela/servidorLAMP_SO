@@ -33,7 +33,7 @@
             <!-- <th>Nro</th> -->
             <th>Nombres y Apellidos</th>
             <th>Imagen de Perfil</th>
-            <th>Infromacion</th>
+            <th>Informacion</th>
             <th>Fecha</th>
             <th colspan="2">Operaciones</th>
         </thead>
